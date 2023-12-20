@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <meta charset="UTF-8">
+  <title>Contact us</title>
+  <style>
+    /* Custom CSS */
+    
+
+    
+
+    .login-container h2 {
+      margin-bottom: 50px;
+      color: #333;
+    }
+
+    .login-form input[type="text"],
+    .login-form input[type="password"],
+    .login-form button {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+    }
+
+    .login-form button {
+      background-color: #4CAF50;
+      color: white;
+      border: 10px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .login-form button:hover {
+      background-color: #45a049;
+    }
+   
+
+    .login-form input[type="text"],
+    .login-form input[type="password"] {
+      display: block;
+      width: 80%;
+      margin: 0 auto;
+    }
+  .button {
+  display: inline-block;
+  padding: 15px 15px;
+  font-size: 15px;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  text-decoration: none; /* Remove default underline for links */
+  background-color: #3498db; /* Default background color */
+  margin-right: 20px; /* Adding margin between buttons */
+}
+
+/* Style for the second button */
+.button:nth-of-type(2) {
+  background-color: #2ecc71; /* Different background color */
+}
+  </style>
+</head>
+<body>
+  
+
+<div class="login-container">
+  <h2>Contact us</h2>
+  <form class="login-form">
+    <input type="text" placeholder="your name">
+    <input type="password" placeholder="your email">
+    <a [routerLink]="['./districts']" class="button">Login</a>
+  <a [routerLink]="['']" class="button">home</a>

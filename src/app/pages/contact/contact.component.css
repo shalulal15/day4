@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('../../../assets/images/back.jpg'); /* Replace 'background-image.jpg' with your image path */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .login-container {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background for login container */
+    padding: 50px;
+    border: 100px;
+    box-shadow: 0 4px 8px rgba(202, 100, 100, 0.1); /* Shadow for the container */
+    text-align: center;
+  }

@@ -1,0 +1,12 @@
+.bg {
+    background-image: url("../../../assets/images/img2.jpg");
+  
+    background-size: cover;
+    /* background-position: center; */
+    
+    /* Add additional styles as needed */
+    /* For example, setting a height */
+    height: 700px; /* 100% of the viewport height */
+  }
+  
+ 
